@@ -19,13 +19,13 @@ end
 def using_concat(array1,array2) #gucci
   array1.concat(array2)
 end
-def using_insert (array,element)
+def using_insert(array,element)
   array.insert(element)
 end
-def using_uniq(array)
+def using_uniq(array) #gucci
   array.uniq
 end
-def using_flatten(array)
+def using_flatten(array) #gucci
   array.flatten
 end
 def using_delete(array,element) #gucci
