@@ -5,3 +5,8 @@
 .shift 
 .shift(1,2)
 .concat
+.insert(1,2)
+.uniq()
+.flatten()
+.delete(array,string)
+.delete_at(array,0)
