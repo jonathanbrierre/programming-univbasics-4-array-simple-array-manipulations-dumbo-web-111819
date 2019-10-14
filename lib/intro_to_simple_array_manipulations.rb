@@ -7,10 +7,11 @@ end
 def using_pop(array) #gucci
   array.pop
 end
-def pop_with_args(array)
+def pop_with_args(array) #gucci
   array.pop(2)
 end
 def using_shift(array) #gucci
+  array.shift
 end 
 def shift_with_args(array,element)
   array.shift(element)
