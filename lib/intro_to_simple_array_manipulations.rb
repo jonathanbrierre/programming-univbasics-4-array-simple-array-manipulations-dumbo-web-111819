@@ -13,8 +13,8 @@ end
 def using_shift(array) #gucci
   array.shift
 end 
-def shift_with_args(array,element)
-  array.shift(element)
+def shift_with_args(array)
+  array.shift(2)
 end
 def using_concat()
   array.concat
