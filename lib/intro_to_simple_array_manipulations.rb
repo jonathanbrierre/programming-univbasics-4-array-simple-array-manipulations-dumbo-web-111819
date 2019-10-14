@@ -1,17 +1,16 @@
-def using_push(array,element)
+def using_push(array,element) #gucci
   array.push(element)
 end
-def using_unshift(array,element)
+def using_unshift(array,element) #gucci
   array.unshift(element)
 end 
-def using_pop(array)
+def using_pop(array) #gucci
   array.pop
 end
 def pop_with_args(array,element)
   array.pop(element)
 end
-def using_shift(array)
-  array.shift 
+def using_shift(array) #gucci
 end 
 def shift_with_args(array,element)
   array.shift(element)
@@ -28,9 +27,9 @@ end
 def using_flatten(array,element)
   array.flatten(element)
 end
-def using_delete(array,element)
+def using_delete(array,element) #gucci
   array.delete(element)
 end
-def using_delete_at(array,index)
+def using_delete_at(array,index) #gucci
 array.delete_at(index)
 end
