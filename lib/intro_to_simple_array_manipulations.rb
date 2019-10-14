@@ -23,8 +23,14 @@ def using_insert (array,element)
   array.insert(element)
 end
 def using_uniq(array,element)
-  
-array.uniq(element)
-array.flatten(element)
-array.delete(element)
-array.delete_at(0)
+  array.uniq(element)
+end
+def using_flatten(array,element)
+  array.flatten(element)
+end
+def using_delete(array,element)
+  array.delete(element)
+end
+def using_delete_at(array,index)
+array.delete_at(index)
+end
