@@ -10,9 +10,15 @@ end
 def pop_with_args(array,element)
   array.pop(element)
 end
-array.shift 
-array.shift(element)
+def using_shift(array)
+  array.shift 
+end 
+def shift_with_args(array,element)
+  array.shift(element)
+end
+def using_concat()
 array.concat
+end
 array.insert(element)
 array.uniq(element)
 array.flatten(element)
