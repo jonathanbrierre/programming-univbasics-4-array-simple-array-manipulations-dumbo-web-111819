@@ -20,7 +20,7 @@ def using_concat(array1,array2) #gucci
   array1.concat(array2)
 end
 def using_insert(array,element)
-  array.insert(element).index(4)
+  array.insert(element).index(3)
 end
 def using_uniq(array) #gucci
   array.uniq
