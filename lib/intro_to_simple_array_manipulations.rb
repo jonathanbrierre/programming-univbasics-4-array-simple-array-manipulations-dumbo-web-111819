@@ -7,8 +7,8 @@ end
 def using_pop(array) #gucci
   array.pop
 end
-def pop_with_args(array,element)
-  array.pop(element)
+def pop_with_args(array,element1,element2)
+  array.pop(element1,element2)
 end
 def using_shift(array) #gucci
 end 
