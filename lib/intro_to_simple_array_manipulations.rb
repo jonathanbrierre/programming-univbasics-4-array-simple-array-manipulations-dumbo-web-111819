@@ -17,9 +17,13 @@ def shift_with_args(array,element)
   array.shift(element)
 end
 def using_concat()
-array.concat
+  array.concat
 end
-array.insert(element)
+def using_insert (array,element)
+  array.insert(element)
+end
+def using_uniq(array,element)
+  
 array.uniq(element)
 array.flatten(element)
 array.delete(element)
