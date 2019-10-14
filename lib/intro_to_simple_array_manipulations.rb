@@ -1,10 +1,10 @@
-.push
+array.push
 array.unshift(element)
-.pop
+array.pop
 array.pop(element)
-.shift 
+array.shift 
 array.shift(element)
-.concat
+array.concat
 array.insert(element)
 array.uniq(element)
 array.flatten(element)
