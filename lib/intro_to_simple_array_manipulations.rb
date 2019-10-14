@@ -16,17 +16,17 @@ end
 def shift_with_args(array) #gucci
   array.shift(2)
 end
-def using_concat(array1,array2)
+def using_concat(array1,array2) #gucci
   array1.concat(array2)
 end
 def using_insert (array,element)
   array.insert(element)
 end
-def using_uniq(array,element)
-  array.uniq(element)
+def using_uniq(array)
+  array.uniq
 end
-def using_flatten(array,element)
-  array.flatten(element)
+def using_flatten(array)
+  array.flatten
 end
 def using_delete(array,element) #gucci
   array.delete(element)
